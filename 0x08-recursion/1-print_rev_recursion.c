@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _puts_recursion - prints a string follwed by '\n'
+ * _print_rev_recursion -  function that prints a string in reverse
  * @s: a pointer to the first C in array in memory
  *
  * Return: 0
