@@ -1,11 +1,12 @@
 #include "main.h"
+
+int _prime_test(int n, int i);
+
 /**
- * is_prime_number - check if n prime number
- * @n : number be checked
- *
- * Return : returnned 1 or 0
+ * is_prime_number - check if  prime number
+ * @n: the number checked
+ * Return: 1 if n is a prime number, else 0
  */
-int _prime_1(int a, int b);
 int is_prime_number(int n)
 {
 	if (n <= 1)
@@ -14,19 +15,17 @@ int is_prime_number(int n)
 		return (_prime_1(n, 2));
 }
 
-
 /**
- * _prime_1 - is prime
- * @a: same as n
- * @b: divisor from 1 to n
- *
- * Return : 1 or 0
+ * _prime_1 - if the number is prime
+ * @a: the number to  test
+ * @b: iterates number
+ * Return: 1 or 0
  */
 int _prime_1(int a, int b)
 {
 	if (a % i == 0)
 	{
-		if (i == a)
+		if (b == a)
 			return (1);
 		else
 			return (0);
