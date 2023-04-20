@@ -5,15 +5,15 @@
  *
  * Return : returnned 1 or 0
  */
+int _prime_1(int a, int b);
 int is_prime_number(int n)
 {
-	if(n <= 1)
-	{
+	if (n <= 1)
 		return (0);
-	}
 	else
 		return (_prime_1(n, 2));
 }
+
 
 /**
  * _prime_1 - is prime
@@ -28,9 +28,9 @@ int _prime_1(int a, int b)
 	{
 		if (i == a)
 			return (1);
-		else 
+		else
 			return (0);
 	}
-	else 
+	else
 		return (_prime_1(a, b + 1));
 }
