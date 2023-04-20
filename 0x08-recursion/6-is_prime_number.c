@@ -23,7 +23,7 @@ int is_prime_number(int n)
  */
 int _prime_1(int a, int b)
 {
-	if (a % i == 0)
+	if (a % b == 0)
 	{
 		if (b == a)
 			return (1);
