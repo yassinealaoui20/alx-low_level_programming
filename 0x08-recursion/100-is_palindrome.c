@@ -39,6 +39,7 @@ int _str_rev(char *str, int len)
 int is_palindrome(char *s)
 {
 	int len = _str_len(s, 0);
+
 	return (_str_rev(s, len));
 }
 
