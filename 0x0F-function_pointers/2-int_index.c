@@ -8,7 +8,7 @@
  * @size: size of array
  * @cmp: pointer to function
  *
- * Return: -1 
+ * Return: -1
  * Otherwize index of 1st
 */
 
