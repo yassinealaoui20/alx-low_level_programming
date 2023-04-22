@@ -2,7 +2,7 @@
 #include <stdarg.h>
 #include <unistd.h>
 /**
- * print_numbers - print args 
+ * print_numbers - print args
  *
  * @separator: delimiter
  * @n: number
