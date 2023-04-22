@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * print_strings - print args 
+ * print_strings - print args
  *
  * @separator: delimiter
  * @n: number
