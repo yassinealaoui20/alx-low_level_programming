@@ -5,9 +5,9 @@
 /* more headers goes there */
 
 /**
- * int main: Enter point fanction
+ * main - Enter point fanction
  * n: integer
- * return: value 0
+ * Return: value 0
  */
 
 int main(void)
